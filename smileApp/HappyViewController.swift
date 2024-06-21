@@ -8,22 +8,27 @@
 import UIKit
 
 class HappyViewController: UIViewController {
+    
+    weak var delegate:happyProtocol?
+    
+    var smile: Float = 0.0
 
+    @IBOutlet weak var happySlider: UISlider!
+    
     override func viewDidLoad() {
+        happySlider.value = smile
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func setSmile(_ sender: Any) {
+        smile = happySlider.value
     }
-    */
+    @IBAction func returnView(_ sender: Any) {
+        print("Exit")
+        delegate?.returnSmile(self, smileToSet: smile)
+    }
+}
 
+protocol happyProtocol: class {
+    func returnSmile(_ controller: HappyViewController, smileToSet smile: Float)
 }

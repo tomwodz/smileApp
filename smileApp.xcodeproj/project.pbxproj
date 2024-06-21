@@ -13,6 +13,9 @@
 		121F741A2C24CCBC00B6C8AB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 121F74192C24CCBC00B6C8AB /* Base */; };
 		121F741C2C24CCBD00B6C8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121F741B2C24CCBD00B6C8AB /* Assets.xcassets */; };
 		121F741F2C24CCBD00B6C8AB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 121F741E2C24CCBD00B6C8AB /* Base */; };
+		121F742D2C24CF2400B6C8AB /* SmileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F742C2C24CF2400B6C8AB /* SmileView.swift */; };
+		121F742F2C24D88E00B6C8AB /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F742E2C24D88E00B6C8AB /* ColorViewController.swift */; };
+		12933FE82C26081E00659794 /* HappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12933FE72C26081E00659794 /* HappyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		121F741B2C24CCBD00B6C8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121F741E2C24CCBD00B6C8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121F74202C24CCBD00B6C8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121F742C2C24CF2400B6C8AB /* SmileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileView.swift; sourceTree = "<group>"; };
+		121F742E2C24D88E00B6C8AB /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		12933FE72C26081E00659794 /* HappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				121F74142C24CCBC00B6C8AB /* SceneDelegate.swift */,
 				121F74162C24CCBC00B6C8AB /* ViewController.swift */,
 				121F74182C24CCBC00B6C8AB /* Main.storyboard */,
+				121F742E2C24D88E00B6C8AB /* ColorViewController.swift */,
+				121F742C2C24CF2400B6C8AB /* SmileView.swift */,
 				121F741B2C24CCBD00B6C8AB /* Assets.xcassets */,
 				121F741D2C24CCBD00B6C8AB /* LaunchScreen.storyboard */,
 				121F74202C24CCBD00B6C8AB /* Info.plist */,
+				12933FE72C26081E00659794 /* HappyViewController.swift */,
 			);
 			path = smileApp;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				121F74172C24CCBC00B6C8AB /* ViewController.swift in Sources */,
 				121F74132C24CCBC00B6C8AB /* AppDelegate.swift in Sources */,
 				121F74152C24CCBC00B6C8AB /* SceneDelegate.swift in Sources */,
+				121F742F2C24D88E00B6C8AB /* ColorViewController.swift in Sources */,
+				121F742D2C24CF2400B6C8AB /* SmileView.swift in Sources */,
+				12933FE82C26081E00659794 /* HappyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

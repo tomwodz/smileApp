@@ -8,22 +8,19 @@
 import UIKit
 
 class ColorViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
+    var redColor: Float = 0.0
+    var greenColor: Float = 0.0
+    var blueColor: Float = 0.0
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBOutlet weak var redSlider: UISlider!
+    @IBOutlet weak var greenSlider: UISlider!
+    @IBOutlet weak var blueSlider: UISlider!
+    
+    override func viewDidLoad() {
+        redSlider.value = redColor
+        greenSlider.value = greenColor
+        blueSlider.value = blueColor
+        super.viewDidLoad()
     }
-    */
-
 }
